@@ -19,19 +19,7 @@ const currencyCodes = [
     "ZWL"
 ];
 
-const currencyToCountryMap = {
-  "EUR": "GR",  // ✅ Fix: Change "EU" to "GR"
-  "USD": "US",
-  "GBP": "GB",
-  "JPY": "JP",
-  "INR": "IN",
-  "CNY": "CN",
-  "AUD": "AU",
-  "CAD": "CA",
-  "CHF": "CH",
-  "SEK": "SE",
-  "NZD": "NZ",
-};
+
 
 const CurrencySelect = ({selectedCurrency , handleCurrency}) => {
    const countryCode = selectedCurrency.substring(0, 2);

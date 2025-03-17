@@ -13,7 +13,9 @@ body{
   justify-content: center;
   min-height: center;
   min-height: 100vh;
-  background: url("bg.png") #030728 no-repeat center;
+  background: url("bg2.png") #030728 no-repeat center  ;
+  background-size: cover; /* Makes sure the image covers the whole screen */
+  background-attachment: fixed; /* Keeps it fixed when scrolling */
 }
 
 #root{
